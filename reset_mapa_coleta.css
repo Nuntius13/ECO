@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+iframe{
+    height: 80vh;
+    width: 98vw;
+    margin-left: 0.5vw;
+    /* background-color: #232323; */
+    margin-top: 1vh;
+    border-radius: 20px;
+}
+.mapa {
+    float: left;
+    width: 90vw;
+    height: 7vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    border-radius: 100px;
+    transition: 0.5s;
+    background-color: rgb(51, 1, 251);
+}
+
+.mapa:hover {
+    scale: 1.1;
+}
+
+/* ajusta o tamanho da tela */
+.ajuste {
+    height: 10vh;
+    /* debug */
+    /* width: 5px;
+    margin-left: 10vh;
+    background-color: red; */
+}
+
+@media (max-width:999px) {
+    iframe{
+        height: 84vh;
+        width: 100vw;
+        margin-top: -1vw;
+        /* background-color: #232323; */
+    }
+}

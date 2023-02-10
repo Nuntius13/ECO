@@ -1,0 +1,232 @@
+/* DOCUMENTO STYLE CSS NAVEGAÇÃO DO MENU  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-left: 2rem;
+}
+
+/* barra de menu */
+.nav_menu {
+    position: fixed;
+}
+
+.nave {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 8vh;
+    width: 100vw;
+    align-items: center;
+}
+
+
+/* logo */
+.logo_da_pagina {
+    background-image: url(img/logo_trp.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 15vh;
+
+    margin-top: 8vh;
+    margin-left: -15vw;
+    margin-right: 8vw;
+
+    border-radius: 100%;
+    transition: 0.5ms;
+    /* debug */
+    /* background-color: red; */
+}
+
+.logo_da_pagina:hover {
+    scale: 1.1;
+    opacity: 0.9;
+}
+
+/* item do menu */
+.lista {
+    list-style: none;
+    display: flex;
+}
+
+.lista li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
+
+.lista a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.lista2 {
+    list-style: none;
+    display: flex;
+}
+
+.lista2 li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.lista2 a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item_lista {
+    padding: 2vh;
+    justify-content: space-around;
+    transition: 0.5ms;
+    /* debug */
+    /* background-color: red; */
+}
+
+.item_lista:hover {
+    opacity: 0.8;
+    scale: 1.1;
+}
+
+.lista1 {
+    display: none;
+}
+
+/*  menu responsivo */
+.menu_mobile {
+    display: none;
+    cursor: pointer;
+    margin-left: 70vw;
+    align-items: flex-end;
+}
+
+.menu_mobile div {
+    width: 32px;
+    height: 2px;
+    background: aliceblue;
+    margin: 8px;
+
+}
+
+/* .menu_mobile:hover {
+    scale: 1.1;
+} */
+
+/* alinha o menu com o corpo */
+.alinha {
+    height: 16vh;
+    width: 100vw;
+    /* debug */
+    background-color: #23232e;
+}
+
+/* rodapé da pagina */
+.rodape {
+    height: 32vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+
+@media (max-width:999px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nave {
+        display: flex;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #23232e;
+        height: 8vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .logo_da_pagina {
+        background-image: url(img/logo_trp.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 10vh;
+
+        margin-top: 8vh;
+        margin-left: -40vw;
+        margin-right: 8vw;
+
+        border-radius: 100%;
+        transition: 0.5ms;
+        /* debug */
+        /* background-color: red; */
+    }
+
+    .lista {
+        position: absolute;
+        top: 16vh;
+        right: 0;
+        width: 80vw;
+        height: 92vh;
+        background-color: #23232e;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease-in;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+
+    .lista.active {
+        transform: translateX(0);
+    }
+
+    .lista li {
+        margin-left: 0;
+    }
+
+    .lista1 {
+        display: block;
+    }
+
+    .lista2 {
+        display: none;
+    }
+
+    .menu_mobile {
+        display: block;
+    }
+}
+
+@keyframes navLinksFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Css LINKS -->
+    <link rel="stylesheet" type="text/css" href="reset_nav_menu.css">
+    <link rel="stylesheet" type="text/css" href="reset_reciclaveis.css">
+
+    <title>Pagina inicial ECO</title>
+</head>
+
+<body>
+    <!-- barra de menu -->
+    <header class="nav_menu">
+        <nav>
+
+            <div class="nave">
+
+                <!-- logo -->
+                <a href="index.html">
+                    <div class="logo_da_pagina"></div>
+                </a>
+                
+                <!-- items do menu -->
+                <ul class="lista2">
+                    <li><a href="login_registro.html">
+                            <div class="item_lista">Login</div>
+                        </a></li>
+                    <li><a href="login_registro.html">
+                            <div class="item_lista">SingUp</div>
+                        </a></li>
+                </ul>
+            </div>
+
+            <div class="nave">
+
+
+                <!-- items do menu -->
+                <ul class="lista">
+                    <!--  ===responsivo=== -->
+                    <li class="lista1"><a href="login_registro.html">
+                            <div class="item_lista">Login</div>
+                        </a></li>
+                    <li class="lista1"><a href="login_registro.html">
+                            <div class="item_lista">SingUp</div>
+                        </a></li>
+                    <br><br>
+                    <!--  =============== -->
+                    <li><a href="reciclaveis.html">
+                            <div class="item_lista">Recicláveis</div>
+                        </a></li>
+                    <li><a href="Locais_de_Coleta.html">
+                            <div class="item_lista">Locais de Coleta</div>
+                        </a></li>
+                    <li><a href="Dias_de_Coleta.html">
+                            <div class="item_lista">Dias de Coleta</div>
+                        </a></li>
+                    <li><a href="mapa_de_coleta.html">
+                            <div class="item_lista">Maps</div>
+                        </a></li>
+                    <li><a href="SAC.html">
+                            <div class="item_lista">SAC</div>
+                        </a></li>
+                </ul>
+
+                <!-- menu responsivo -->
+                <div class="menu_mobile">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- alinha o menu com o corpo -->
+    <div class="alinha"></div>
+
+    <!--################################### corpo do site INICIO ###################################-->
+    <!-- NOTA: essa parte e feita em um css diferente -->
+    <!-- barra de pesquisa -->
+    <form name="reciclaveis" method="get">
+        <div><input type="text" name="inp_pesquisar" placeholder="" /></div>
+    </form>
+    <!-- items de navegação da pagina -->
+    <div class="navegacao">
+    <ul class="items">
+        <li><a href="reciclaveis/plasticos.html"><div>| Plásticos |</div></a></li>
+        <li><a href="reciclaveis/metais.html"><div>Metais |</div></a></li>
+        <li><a href="reciclaveis/vidros.html"><div>Vidros |</div></a></li>
+        <li><a href="reciclaveis/papeis.html"><div>Papeis |</div></a></li>
+        <li><a href="reciclaveis/eletrônicos.html"><div>Eletrônicos |</div></a></li>
+        <li><a href="reciclaveis/nao-recicláveis.html"><div>Nao Recicláveis |</div></a></li>
+    </ul>
+    </div>
+
+    <!-- materiais e dicas -->
+    <div class="materiais">
+        <a href="reciclaveis/plasticos.html">
+        <div 
+        class="mtr_item" id="Plásticos"
+        style="background-image: url(); 
+        background-color: red;">Plásticos</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+
+        <a href="reciclaveis/metais.html">
+        <div class="mtr_item" id="Metais"
+        style="background-image: url();
+        background-color: yellow;">Metais</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+
+        <a href="reciclaveis/vidros.html">
+        <div class="mtr_item" id="Vidros"
+        style="background-image: url();
+        background-color: green;">Vidros</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+
+        <a href="reciclaveis/papeis.html">
+        <div class="mtr_item" id="Papeis"
+        style="background-image: url();
+        background-color: blue;">Papeis</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+
+        <a href="reciclaveis/eletrônicos.html">
+        <div class="mtr_item" id="Eletrônicos"
+        style="background-image: url();
+        background-color: orange;">Eletrônicos</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+
+        <a href="reciclaveis/nao-recicláveis.html">
+        <div class="mtr_item" id="NaoRecicláveis"
+        style="background-image: url();
+        background-color: gray;">Nao Recicláveis</div>
+        <div class="mtr_item" style="background-color: lightblue;"><p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis interdum gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et velit pulvinar, accumsan ex in, iaculis metus. Vivamus congue ipsum risus, ut posuere lorem finibus sit amet. Nulla iaculis, diam ac pellentesque eleifend, leo mauris malesuada libero, eu rhoncus ipsum nulla eu nulla. Duis vel dui non mi blandit imperdiet. Nullam laoreet laoreet odio vitae malesuada.
+        </p></div></a>
+    </div>
+
+    <!-- ajusta o tamanho da tela  -->
+    <div class="ajuste"></div>
+    <!--################################### corpo do site FIM ###################################-->
+
+    <!-- rodapé da pagina -->
+    <footer>
+        <div class="rodape"></div>
+    </footer>
+    <script src="mobile_navbar.js"></script>
+</body>
+
+</html>
