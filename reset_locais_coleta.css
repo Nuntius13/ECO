@@ -85,10 +85,6 @@ form textarea:focus {
     background-size: contain;
 }
 
-.icone:hover {
-    scale: 1.1;
-}
-
 .texto {
     float: left;
     width: 30vw;
