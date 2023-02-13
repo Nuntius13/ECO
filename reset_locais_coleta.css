@@ -159,9 +159,9 @@ form textarea:focus {
 
         width: 80vw;
         height: 30vh;
-        padding-top: 20vh;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-top: 0vh;
+        padding-left: 0vw;
+        padding-right: 1vw;
         /* debug */
         /* background-color: black; */
     }
@@ -234,21 +234,14 @@ form textarea:focus {
     }
 }
 
-@media(max-width:667px) {
+@media(max-width:668px) {
     .Locais_coleta {
         display: none;
     }
 
     .Locais_coleta {
         display: inline;
-
-        width: 80vw;
-        height: 30vh;
-        padding-top: 20vh;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        /* debug */
-        /* background-color: black; */
+       
     }
 
     .ali_objetos {
