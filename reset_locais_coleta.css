@@ -5,16 +5,20 @@
     padding: 0;
 }
 
-*, ::after, ::before {
-    box-sizing: unset ;
+*,
+::after,
+::before {
+    box-sizing: unset;
 }
 
 body {
     min-height: 100%;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
 }
+
 /* barra de pesquisa */
 form {
     width: 96%;
@@ -42,22 +46,22 @@ form textarea:focus {
 
 /* locais */
 .Locais_coleta {
-    width: 80vw ;
-    height: 35vh ;
-    padding-top: 10vh ;
-    padding-bottom: 10vh ;
-    padding-left: 10vw ;
-    padding-right: 10vw ;
-    
+    width: 80vw;
+    height: 35vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
     /* debug */
-    
-   
+
+
 }
 
 .ali_objetos {
-    float:right;
-    width: auto ;
-    height: 40vh ;
+    float: right;
+    width: 41vw;
+    height: 40vh;
     margin-right: 7vw;
     border-radius: 0px 90px 0px 0px;
     /* debug */
@@ -65,77 +69,82 @@ form textarea:focus {
 }
 
 .icone {
-    float: left ;
-    width: 7vw ;
-    height: 7vw ;
-    margin-top: 2vh ;
-    margin-left: 2vw ;
-    margin-right: 1vw ;
-    border-radius: 40px ;
+    float: left;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    border-radius: 40px;
 }
 
 .icone {
     /* background-color: black; */
     background-image: url(icons/google-maps.png);
-    background-repeat: no-repeat ;
-    background-size: contain ;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.icone:hover{
+
+.icone:hover {
     scale: 1.1;
 }
+
 .texto {
-    float: left ;
-    width: 30vw ;
-    height: 7vw ;
-    margin-top: 2vh ;
-    margin-right: 1vw ;
+    float: left;
+    width: 30vw;
+    height: 16vw;
+    margin-top: 2vh;
+    margin-right: 1vw;
     /* debug */
     /* background-color: black; */
 }
 
-.informa{
-    font-size: 30px ;
+.informa {
+    font-size: 25px;
 }
-.nome{
-    color: red ;
-    font-family: sans-serif ;
-    font-size: 30px ;
+
+.nome {
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
 }
 
 
 .mapa {
     justify-content: space-around;
-    width: 20vw ;
-    height: 3vw ;
-    margin-left: 10vw ;
-    margin-right: 2vw ;
-    margin-top: 22vh ;
-    margin-bottom: 5vh ;
+    width: 20vw;
+    height: 3vw;
+    margin-left: 10vw;
+    margin-right: 2vw;
+    margin-top: 22vh;
+    margin-bottom: 5vh;
     border-radius: 10px 50px 50px;
-    transition: 0.5s ;
+    transition: 0.5s;
     background-color: green;
 }
-.mapa p{
-    text-align: center ;
-    color: white ;
-    font-size: 25px ;
+
+.mapa p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
 }
+
 .mapa:hover {
-    scale: 1.1 ;
+    scale: 1.1;
 }
 
 .img_local {
-    float: left ;
-    width: 32vw ;
-    height: 40vh ;
-    border-radius: 10px ;
+    float: left;
+    width: 32vw;
+    height: 40vh;
+    border-radius: 10px;
     background-color: black;
     border-radius: 0px 0px 0px 90px;
 }
 
 
 .ajuste {
-    height: 10vh ;
+    height: 10vh;
     /* debug */
     /* width: 5px;
     margin-left: 10vh;
@@ -143,139 +152,147 @@ form textarea:focus {
 }
 
 /* DISPOSITIVOS MOBILES */
-@media(max-width:1300px) {
-    
-    .Locais_coleta {
-        display: none ;
-    }
-    .Locais_coleta{
-        display: inline ;
+@media(max-width:999px) {
 
-        width: 80vw ;
-        height: 30vh ;
-        padding-top: 20vh ;
-        padding-left: 10vw ;
-        padding-right: 10vw ;
+    .Locais_coleta {
+        display: none;
+    }
+
+    .Locais_coleta {
+        display: inline;
+
+        width: 80vw;
+        height: 30vh;
+        padding-top: 20vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
         /* debug */
         /* background-color: black; */
     }
+
     .ali_objetos {
-        float: none ;
-        width: 90VW ;
-        height: 32vh ;
+        float: none;
+        width: 90VW;
+        height: 32vh;
         margin-left: 5vw;
         border-radius: 90px 90px 0px 0px;
-        
+
         /* debug */
         /* background-color: rgb(170, 255, 0); */
     }
 
     .icone {
-        width: 15vw ;
-        height: 15vw ;
-        margin-top: 2vh ;
-        margin-left: 2vw ;
-        margin-right: 1vw ;
-        border-radius: 40px ;
-        
+        width: 15vw;
+        height: 15vw;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        margin-right: 1vw;
+        border-radius: 40px;
+
     }
 
     .texto {
-        width: 80vw ;
-        height: 18vw ;
-        margin-top: 2vh ;
-        margin-right: 1vw ;
+        width: 60vw;
+        height: 18vw;
+        margin-top: 2vh;
+        margin-right: 1vw;
         margin-left: 5vw;
         /* debug */
         /* background-color: rgb(197, 13, 13); */
     }
-    .informa{
-        font-size: 38px ;
+
+    .informa {
+        font-size: 38px;
     }
-    .nome{
-        color: red ;
-        font-family: sans-serif ;
-        font-size: 38px ;
+
+    .nome {
+        color: red;
+        font-family: sans-serif;
+        font-size: 30px;
     }
-    
+
     .mapa {
-        float: left ;
-        width: 90vw ; 
-        height: 7vw ;
-        margin-left: 2vw ;
-        margin-right: 2vw ;
+        float: left;
+        width: 90vw;
+        height: 7vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
         margin-top: -15vh;
-        margin-bottom: 5vh ;
+        margin-bottom: 5vh;
         border-radius: 10px 50px 50px;
-        transition: 0.5s ;
+        transition: 0.5s;
         background-color: green;
     }
 
     .mapa:hover {
-        scale: 1.1 ;
+        scale: 1.1;
     }
 
     .img_local {
-        float: none ;
-        width: 90vw ;
-        height: 32vh ;
+        float: none;
+        width: 90vw;
+        height: 32vh;
         margin-left: 5vw;
         border-radius: 0px 0px 90px 90px;
-        background-color: rgb(255, 1, 1) ;
+        background-color: rgb(255, 1, 1);
     }
 }
 
-@media(max-width:420px) {
+@media(max-width:667px) {
     .Locais_coleta {
-        display: none ;
+        display: none;
     }
-    .Locais_coleta{
-        display: inline ;
 
-        width: 80vw ;
-        height: 30vh ;
-        padding-top: 20vh ;
-        padding-left: 10vw ;
-        padding-right: 10vw ;
+    .Locais_coleta {
+        display: inline;
+
+        width: 80vw;
+        height: 30vh;
+        padding-top: 20vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
         /* debug */
         /* background-color: black; */
     }
+
     .ali_objetos {
-        float: none ;
-        width: auto ;
-        height: 32vh ;
+        float: none;
+        width: 90vw;
+        height: 32vh;
         border-radius: 20px 20px 0px 0px;
         /* debug */
         /* background-color: rgb(170, 255, 0); */
     }
 
     .icone {
-        width: 15vw ;
-        height: 15vw ;
-        margin-top: 2vh ;
-        margin-left: 2vw ;
-        margin-right: 1vw ;
-        border-radius: 40px ;
-        
+        width: 15vw;
+        height: 15vw;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        margin-right: 1vw;
+        border-radius: 40px;
+
     }
 
     .texto {
-        width: 80vw ;
-        height: 40vw ;
+        width: 80vw;
+        height: 40vw;
         margin-top: 2vh;
         margin-right: 1vw;
         /* debug */
         /* background-color: rgb(197, 13, 13); */
     }
-    .informa{
-        font-size: 18px ;
+
+    .informa {
+        font-size: 18px;
     }
-    .nome{
-        color: red ;
-        font-family: sans-serif ;
-        font-size: 18px ;
+
+    .nome {
+        color: red;
+        font-family: sans-serif;
+        font-size: 18px;
     }
-    
+
     .mapa {
         float: left;
         width: 90vw;
@@ -294,10 +311,40 @@ form textarea:focus {
     }
 
     .img_local {
-        width: 90vw ;
-        height: 32vh ;
+        width: 90vw;
+        height: 32vh;
         margin-left: 5vw;
         border-radius: 0px 0px 20px 20px;
         background-color: black;
+    }
+}
+@media(max-width:376px) {
+    .informa {
+        font-size: 15px !important;
+    }
+
+    .nome {
+        color: red;
+        font-family: sans-serif;
+        font-size: 15px !important;
+    }
+}
+@media(max-height:600px) {
+    .texto {
+        width: auto;
+        height: 40vw;
+        margin-top: 2vh;
+        margin-right: 2vw;
+        /* debug */
+    }
+
+    .informa {
+        font-size: 20px;
+    }
+
+    .nome {
+        color: red;
+        font-family: sans-serif;
+        font-size: 20px;
     }
 }

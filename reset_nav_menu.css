@@ -12,11 +12,15 @@ body {
 
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-ol, ul {
+
+ol,
+ul {
     padding-left: 2rem;
 }
 
@@ -69,7 +73,7 @@ ol, ul {
 .lista li {
     letter-spacing: 3px;
     margin-left: 32px;
-    
+
 }
 
 .lista a {
@@ -146,7 +150,7 @@ ol, ul {
     background-color: blueviolet;
 }
 
-@media (max-width:999px) {
+@media (max-width:1024px) {
     * {
         margin: 0;
         padding: 0;
@@ -160,8 +164,8 @@ ol, ul {
         display: flex;
         justify-content: space-around;
         font-family: Arial, Helvetica, sans-serif;
-        background: #23232e;
-        height: 8vh;
+        /* background: #23232e; */
+        height: 5vh;
         width: 100vw;
         align-items: center;
     }
@@ -171,10 +175,10 @@ ol, ul {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
 
-        margin-top: 8vh;
+        margin-top: 4vh;
         margin-left: -40vw;
         margin-right: 8vw;
 
@@ -186,7 +190,7 @@ ol, ul {
 
     .lista {
         position: absolute;
-        top: 16vh;
+        top: 10vh;
         right: 0;
         width: 80vw;
         height: 92vh;
@@ -216,6 +220,24 @@ ol, ul {
 
     .menu_mobile {
         display: block;
+    }
+
+    /*  menu responsivo */
+
+    .menu_mobile div {
+        width: 32px;
+        height: 2px;
+        background: aliceblue;
+        margin: 8px;
+        margin-bottom: 5px;
+
+    }
+
+    .alinha {
+        height: 8vh;
+        width: 100vw;
+        /* debug */
+        background-color: #23232e;
     }
 }
 
