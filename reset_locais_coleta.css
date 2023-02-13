@@ -39,26 +39,29 @@ form textarea:focus {
     outline: 0;
 }
 
+
 /* locais */
 .Locais_coleta {
     width: 80vw ;
-    height: 30vh ;
-    padding-top: 15vh ;
+    height: 35vh ;
+    padding-top: 10vh ;
+    padding-bottom: 10vh ;
     padding-left: 10vw ;
     padding-right: 10vw ;
+    
     /* debug */
-    /* background-color: red; */
+    
+   
 }
-.Locais_coleta_mobile{
-    display: none ;
-    justify-content: space-around;
-}
+
 .ali_objetos {
     float:right;
     width: auto ;
-    height: 32vh ;
+    height: 40vh ;
+    margin-right: 7vw;
+    border-radius: 0px 90px 0px 0px;
     /* debug */
-    /* background-color: rgb(170, 255, 0); */
+    background-color: #ccc;
 }
 
 .icone {
@@ -70,11 +73,15 @@ form textarea:focus {
     margin-right: 1vw ;
     border-radius: 40px ;
 }
+
 .icone {
     /* background-color: black; */
-    background-image: url(icons/icon_maps.png);
+    background-image: url(icons/google-maps.png);
     background-repeat: no-repeat ;
     background-size: contain ;
+}
+.icone:hover{
+    scale: 1.1;
 }
 .texto {
     float: left ;
@@ -87,12 +94,12 @@ form textarea:focus {
 }
 
 .informa{
-    font-size: 20px ;
+    font-size: 30px ;
 }
 .nome{
     color: red ;
     font-family: sans-serif ;
-    font-size: 20px ;
+    font-size: 30px ;
 }
 
 
@@ -119,13 +126,12 @@ form textarea:focus {
 
 .img_local {
     float: left ;
-    width: 30vw ;
-    height: 32vh ;
+    width: 32vw ;
+    height: 40vh ;
     border-radius: 10px ;
     background-color: black;
+    border-radius: 0px 0px 0px 90px;
 }
-
-
 
 
 .ajuste {
@@ -137,11 +143,12 @@ form textarea:focus {
 }
 
 /* DISPOSITIVOS MOBILES */
-@media(max-width:999px) {
+@media(max-width:1300px) {
+    
     .Locais_coleta {
         display: none ;
     }
-    .Locais_coleta_mobile{
+    .Locais_coleta{
         display: inline ;
 
         width: 80vw ;
@@ -154,8 +161,11 @@ form textarea:focus {
     }
     .ali_objetos {
         float: none ;
-        width: 99VW ;
+        width: 90VW ;
         height: 32vh ;
+        margin-left: 5vw;
+        border-radius: 90px 90px 0px 0px;
+        
         /* debug */
         /* background-color: rgb(170, 255, 0); */
     }
@@ -172,13 +182,22 @@ form textarea:focus {
 
     .texto {
         width: 80vw ;
-        height: 40vw ;
+        height: 18vw ;
         margin-top: 2vh ;
         margin-right: 1vw ;
+        margin-left: 5vw;
         /* debug */
         /* background-color: rgb(197, 13, 13); */
     }
-
+    .informa{
+        font-size: 38px ;
+    }
+    .nome{
+        color: red ;
+        font-family: sans-serif ;
+        font-size: 38px ;
+    }
+    
     .mapa {
         float: left ;
         width: 90vw ; 
@@ -198,10 +217,11 @@ form textarea:focus {
 
     .img_local {
         float: none ;
-        width: 99vw ;
+        width: 90vw ;
         height: 32vh ;
-        border-radius: 10px ;
-        background-color: black ;
+        margin-left: 5vw;
+        border-radius: 0px 0px 90px 90px;
+        background-color: rgb(255, 1, 1) ;
     }
 }
 
@@ -209,7 +229,7 @@ form textarea:focus {
     .Locais_coleta {
         display: none ;
     }
-    .Locais_coleta_mobile{
+    .Locais_coleta{
         display: inline ;
 
         width: 80vw ;
@@ -224,6 +244,7 @@ form textarea:focus {
         float: none ;
         width: auto ;
         height: 32vh ;
+        border-radius: 20px 20px 0px 0px;
         /* debug */
         /* background-color: rgb(170, 255, 0); */
     }
@@ -246,7 +267,15 @@ form textarea:focus {
         /* debug */
         /* background-color: rgb(197, 13, 13); */
     }
-
+    .informa{
+        font-size: 18px ;
+    }
+    .nome{
+        color: red ;
+        font-family: sans-serif ;
+        font-size: 18px ;
+    }
+    
     .mapa {
         float: left;
         width: 90vw;
@@ -265,10 +294,10 @@ form textarea:focus {
     }
 
     .img_local {
-        float: none ;
-        width: 100vw;
-        height: 32vh;
-        border-radius: 10px;
+        width: 90vw ;
+        height: 32vh ;
+        margin-left: 5vw;
+        border-radius: 0px 0px 20px 20px;
         background-color: black;
     }
 }
