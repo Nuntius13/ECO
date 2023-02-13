@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    width: 10vw;
+    text-align: center;
+    background-color: burlywood;
+}
+.confirmar{
+    text-align: left !important;
+    width: 20vw !important;
+}
+
+input{
+    width: 20VW;
+}
+input[type="checkbox"]{
+    width: 2vw;
+}
+
+.alinha_items{
+    display: flex;
+}
+
+.formLogin{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+}
+
+.formRegistro{
+    margin: 10px;
+    padding: 10px; 
+    background-color: lightblue;
+}
+
+.carousel-slide{
+    align-items: center;
+
+}
