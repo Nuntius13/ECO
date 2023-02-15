@@ -26,7 +26,8 @@ ul {
 
 /* barra de menu */
 .nav_menu {
-    position: fixed;
+    position: fixed !important;
+    z-index: 9999999;
 }
 
 .nave {
@@ -137,10 +138,10 @@ ul {
 
 /* alinha o menu com o corpo */
 .alinha {
-    height: 16vh;
+    height: 16.5vh;
     width: 100vw;
     /* debug */
-    background-color: #23232e;
+    /* background-color: #23232e; */
 }
 
 /* rodapé da pagina */
@@ -234,10 +235,10 @@ ul {
     }
 
     .alinha {
-        height: 8vh;
+        height: 11vh;
         width: 100vw;
         /* debug */
-        background-color: #23232e;
+        /* background-color: #23232e; */
     }
 }
 
