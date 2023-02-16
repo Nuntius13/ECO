@@ -129,22 +129,52 @@ form textarea:focus {
     scale: 1.1;
 }
 
-.img_local {
-    float: left;
-    width: 32vw;
-    height: 40vh;
-    border-radius: 10px;
-    background-color: black;
-    border-radius: 0px 0px 0px 90px;
-}
-
-
 .ajuste {
     height: 10vh;
     /* debug */
     /* width: 5px;
     margin-left: 10vh;
     background-color: red; */
+}
+
+.img_local1,
+.img_local2,
+.img_local3,
+.img_local4 {
+    float: left;
+    width: 32vw;
+    height: 40vh;
+    border-radius: 10px;
+    border-radius: 0px 0px 0px 90px;
+    background-image: url(img/img-generica.png);
+}
+
+.img_local1 {
+    background-image: url(img/brian-wangenheim-OKWgnUqwBl0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_local2 {
+    background-image: url(img/PapaEntulho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_local3 {
+    background-image: url(img/PapaEntulho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_local4 {
+    background-image: url(img/DescarteMadeira.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* DISPOSITIVOS MOBILES */
@@ -224,7 +254,10 @@ form textarea:focus {
         scale: 1.1;
     }
 
-    .img_local {
+    .img_local1,
+    .img_local2,
+    .img_local3,
+    .img_local4 {
         float: none;
         width: 90vw;
         height: 32vh;
@@ -241,7 +274,7 @@ form textarea:focus {
 
     .Locais_coleta {
         display: inline;
-       
+
     }
 
     .ali_objetos {
@@ -299,14 +332,19 @@ form textarea:focus {
         scale: 1.1;
     }
 
-    .img_local {
+    .img_local1,
+    .img_local2,
+    .img_local3,
+    .img_local4 {
         width: 90vw;
         height: 32vh;
         margin-left: 5vw;
         border-radius: 0px 0px 20px 20px;
         background-color: black;
     }
+
 }
+
 @media(max-width:376px) {
     .informa {
         font-size: 15px !important;
@@ -318,6 +356,7 @@ form textarea:focus {
         font-size: 15px !important;
     }
 }
+
 @media(max-height:600px) {
     .texto {
         width: auto;
