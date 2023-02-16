@@ -143,7 +143,7 @@
 .imagem1,
 .imagem2,
 .imagem3 {
-    align-items: center;
+  align-items: center;
 	height: 40vh;
 	width: 85vw;
 	margin-left: 8vw;
@@ -155,7 +155,6 @@
 	background-size: cover;
 	background-color: 000000;
 	background-image: url(img/img-generica.png);
-
 }
 
 .imagem1{
