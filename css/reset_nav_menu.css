@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 }
 
 body {
     min-height: 100%;
     overflow-x: hidden;
-    background-color: whitesmoke;
+    background-color: gray;
 
 }
 
@@ -36,7 +37,7 @@ ul {
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     background: #23232e;
-    height: 8vh;
+    height: 5vh;
     width: 100vw;
     align-items: center;
 }
@@ -44,12 +45,12 @@ ul {
 
 /* logo */
 .logo_da_pagina {
-    background-image: url(img/logo_trp.png);
+    background-image: url(../img/logo_trp.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 15vh;
-    width: 15vh;
+    height: 8vh;
+    width: 8vh;
 
     margin-top: 8vh;
     margin-left: -15vw;
@@ -172,7 +173,7 @@ ul {
     }
 
     .logo_da_pagina {
-        background-image: url(img/logo_trp.png);
+        background-image: url(../img/logo_trp.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

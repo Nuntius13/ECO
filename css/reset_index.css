@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+
+/* destaques da pagina inicial conteúdo para chama atenção */
+div.destaque {
+	align-items: center;
+	width: 80vw;
+	height: 50vh;
+	display: flex;
+	/* debug */
+	/* background-color: red; */
+}
+
+div.destaque-blocos {
+	margin: 14px;
+	width: 38vw;
+	height: 20vw;
+	background-color: #232323;
+	border-radius: 20px 80px 20px 80px;
+}
+
+div.texto {
+	background-color: #88b38c;
+}
+
+.destaque-blocos>h1 {
+	padding: calc(20vw*0.4) 0 calc(20vw*0.2) 0;
+	border-radius: 20px 80px 20px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seta as img da pagina  */
+
+.imagem1 {
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	background-image: url(../img/paineis-solares.jpg);
+}

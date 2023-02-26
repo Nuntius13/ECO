@@ -80,7 +80,7 @@ form textarea:focus {
 
 .icone {
     /* background-color: black; */
-    background-image: url(icons/google-maps.png);
+    background-image: url(../icons/google-maps.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -146,32 +146,32 @@ form textarea:focus {
     height: 40vh;
     border-radius: 10px;
     border-radius: 0px 0px 0px 90px;
-    background-image: url(img/img-generica.png);
+    background-image: url(../img/img-generica.png);
 }
 
 .img_local1 {
-    background-image: url(img/brian-wangenheim-OKWgnUqwBl0-unsplash.jpg);
+    background-image: url(../img/brian-wangenheim-OKWgnUqwBl0-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img_local2 {
-    background-image: url(img/PapaEntulho.jpg);
+    background-image: url(../img/PapaEntulho.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img_local3 {
-    background-image: url(img/PapaEntulho.jpg);
+    background-image: url(../img/PapaEntulho.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img_local4 {
-    background-image: url(img/DescarteMadeira.jpg);
+    background-image: url(../img/DescarteMadeira.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

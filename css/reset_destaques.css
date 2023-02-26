@@ -14,30 +14,33 @@
 }
 
 /* CARROSSEL */
-.carousel-item{
-    transition: 1s;
+.carousel-item {
+	transition: 1s;
 }
-.carousel-indicators{
-    height: 5vh;
+
+.carousel-indicators {
+	height: 5vh;
 	width: 85vw !important;
-    align-items: center;
+	align-items: center;
 	margin-left: 8vw;
 	margin-bottom: 8vh;
-    /* background-color: rebeccapurple; */
+	/* background-color: rebeccapurple; */
 }
-.carousel-control-prev{
-    height: 50vh;
+
+.carousel-control-prev {
+	height: 50vh;
 	width: 20vw !important;
-    margin-top: 1vw;
-    margin-left: 2.5vw;
-    /* background-color: rebeccapurple; */
+	margin-top: 1vw;
+	margin-left: 2.5vw;
+	/* background-color: rebeccapurple; */
 }
-.carousel-control-next{
-    height: 50vh;
+
+.carousel-control-next {
+	height: 50vh;
 	width: 20vw !important;
-    margin-top: 1vw;
-    margin-right: 1vw;
-    /* background-color: rebeccapurple; */
+	margin-top: 1vw;
+	margin-right: 1vw;
+	/* background-color: rebeccapurple; */
 }
 
 .destaques2 {
@@ -143,30 +146,42 @@
 .imagem1,
 .imagem2,
 .imagem3 {
-  align-items: center;
+	align-items: center;
 	height: 40vh;
 	width: 85vw;
 	margin-left: 8vw;
 	margin-top: 8vh;
 	margin-bottom: 8vh;
-/* set-img */
+	/* set-img */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-color: 000000;
-	background-image: url(img/img-generica.png);
+	background-image: url(../img/img-generica.png);
 }
 
-.imagem1{
-	background-image: url(img/img-passaro-plastico.jpg);
-}
-.imagem2{
-    background-image: url(img/img-papeis-para-reciclagen-v2.png);
-}
-.imagem3{
-    background-image: url(img/img-coleta-de-lixo-praia.png);
+/* seta as imagens da pagina */
+/* img do carrossel */
+.imagem1 {
+	background-image: url(../img/img-passaro-plastico.jpg);
 }
 
+.imagem2 {
+	background-image: url(../img/img-papeis-para-reciclagen-v2.png);
+}
+
+.imagem3 {
+	background-image: url(../img/img-coleta-de-lixo-praia.png);
+}
+
+/* imagens dos destaques da pagina */
+.imagem4 {
+	background-image: url();
+}
+
+.imagem5 {
+	background-image: url();
+}
 
 
 /* ANIMATION */
