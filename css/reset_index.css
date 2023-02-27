@@ -4,6 +4,45 @@
 	font-family: sans-serif;
 }
 
+/* slogan */
+
+div.slogan {
+	display: flex;
+	width: 100vw;
+	height: 90vh;
+	margin-top: -1vw;
+	padding: 10vw 30vw 0vw 10VW;
+
+	text-align: left;
+	color: #ffffff;
+
+
+	/* debug */
+	/* background-color: green; */
+}
+
+div.slogan {
+	background-size: 100%;
+	background-position: center;
+	background-image: url(../img/fundo-mudas-de-plantas.jpg);
+}
+div.slogan h1 {
+	font-size: 70px;
+}
+
+@media (max-width:1500px) {
+	div.slogan h1 {
+		font-size: 55px;
+	}
+
+	div.slogan{
+	padding: 10vw 25vw 0vw 10VW;
+	}
+}
+
+
+
+
 /* destaques da pagina inicial conteúdo para chama atenção */
 div.destaque {
 	align-items: center;
@@ -75,16 +114,20 @@ div.texto {
 
 @media (max-width:1300px) {
 	.icon-fav {
-margin-top: -2vw;
+		margin-top: -2vw;
 	}
 }
+
 @media (max-width:1102px) {
 	.icon-fav {
-margin-top: -5vw;
+		margin-top: -5vw;
 	}
 }
 
 /* seta as img da pagina  */
+
+
+
 .imagem1 {
 	background-repeat: no-repeat;
 	background-size: 100%;
