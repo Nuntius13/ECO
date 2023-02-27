@@ -10,7 +10,7 @@
 body {
     min-height: 100%;
     overflow-x: hidden;
-    background-color: gray;
+    background-color: #fff;
 
 }
 
@@ -45,7 +45,7 @@ nav {
 
 /* logo */
 .logo_da_pagina {
-    background-image: url(../img/logo_trp.png);
+    background-image: url(../icons/logo_trp.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ nav {
     }
 
     .logo_da_pagina {
-        background-image: url(../img/logo_trp.png);
+        background-image: url(../icons/logo_trp.pn);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
