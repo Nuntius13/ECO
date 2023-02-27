@@ -4,33 +4,48 @@
 	font-family: sans-serif;
 }
 
-
-
 /* destaques da pagina inicial conteúdo para chama atenção */
 div.destaque {
 	align-items: center;
+	justify-content: space-around;
 	width: 80vw;
 	height: 50vh;
 	display: flex;
+	margin-top: 10px;
 	/* debug */
-	/* background-color: red; */
+	background-color: rebeccapurple;
 }
 
 div.destaque-blocos {
-	margin: 14px;
 	width: 38vw;
 	height: 20vw;
 	background-color: #232323;
-	border-radius: 20px 80px 20px 80px;
+	border-radius: 20px 0px 0px 80px;
 }
 
 div.texto {
 	background-color: #88b38c;
+	color: #000000;
+	border-radius: 0px 80px 20px 0px;
 }
 
 .destaque-blocos>h1 {
-	padding: calc(20vw*0.4) 0 calc(20vw*0.2) 0;
-	border-radius: 20px 80px 20px 80px;
+	padding: calc(20vw*0.2) 0 20px 0;
+	/* font-size: 30px; */
+}
+
+@media (max-width:1300px) {
+	.destaque-blocos>h1 {
+		font-size: 30px;
+	}
+}
+
+.destaque-blocos>p {
+	width: 35vw;
+	text-align: left;
+	font-size: 20px;
+	/* debug */
+	/* background-color: red; */
 }
 
 
@@ -45,12 +60,34 @@ div.texto {
 
 
 
+/* icons da pagina */
+.icon-fav {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right: 2vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../icons/heart.svg);
+	/* debug */
+	background-color: red;
+}
+
+@media (max-width:1300px) {
+	.icon-fav {
+margin-top: -2vw;
+	}
+}
+@media (max-width:1102px) {
+	.icon-fav {
+margin-top: -5vw;
+	}
+}
 
 /* seta as img da pagina  */
-
 .imagem1 {
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 100%;
 	background-position: center;
 	background-image: url(../img/paineis-solares.jpg);
 }
