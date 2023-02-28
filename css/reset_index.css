@@ -90,7 +90,7 @@ h2 {
 	height: 50vh;
 	width: 40vw;
 	margin: 8vh -5vw 8vh 8vw;
-	background-color:#232323;
+	background-color: #232323;
 	border-radius: 10px;
 }
 
@@ -115,7 +115,7 @@ h2 {
 
 
 	.ajuste_na_tela,
-.imagem0  {
+	.imagem0 {
 		float: none;
 		display: inline;
 		align-items: none;
@@ -136,6 +136,7 @@ h2 {
 		background-color: #232323;
 		/* margin-bottom: 8vh; */
 	}
+
 	.destaques2 {
 		display: none;
 	}
@@ -170,6 +171,7 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .imagem1 {
 	background-image: url(../img/sustentabilidade-da-planta-de-conservacao-ambiental-FULLHD.jpg);
 }

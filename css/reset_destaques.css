@@ -49,10 +49,8 @@
 .destaques3 {
 	display: flex;
 	float: left;
-
 	height: 50vh;
 	width: 40vw;
-
 	margin-left: 8vw;
 	margin-right: -5vw;
 	background-color: #232323;
