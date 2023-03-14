@@ -8,11 +8,11 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
     echo ('preencha a senha');
   } else {
     //LIMPA OS CAMPOS PARA IMPEDIR INJECT PHP
-    $email = $mysqli->real_escape_string($_POST['email']);
-    $senha = $mysqli->real_escape_string($_POST['senha']);
+    $email = $conn->real_escape_string($_POST['email']);
+    $senha = $conn->real_escape_string($_POST['senha']);
     // CONSULTA SQL
     $sql_code = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha';";
-    $sql_query = $mysqli->query($sql_code) or die('falha na execução SQL' . $mysqli->error);
+    $sql_query = $conn->query($sql_code) or die('falha na execução SQL' . $conn->error);
 
     $quantidade = $sql_query->num_rows;
 

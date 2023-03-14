@@ -6,5 +6,5 @@ if(!isset($_SESSION)){
 
 session_destroy();
 
-header('Location: formulario.php');
+header('Location: formulario_login.php');
 

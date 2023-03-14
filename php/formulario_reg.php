@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,13 +16,6 @@ session_start();
 </head>
 
 <body>
-
-	<?php
-	if (isset($_SESSION['msg'])) {
-		echo $_SESSION['msg'];
-		unset($_SESSION['msg']);
-	}
-	?>
 
 	<!-- barra de menu -->
 	<header class="nav_menu">
@@ -86,18 +80,42 @@ session_start();
 		<div class="form-container">
 			<form method="POST" action="Registro.php">
 
+				<?php
+				if (isset($_SESSION['msg'])) {
+					echo $_SESSION['msg'];
+					unset($_SESSION['msg']);
+				}
+				?>
+
+				<?php
+				if (isset($_SESSION['password'])) {
+					echo $_SESSION['password'];
+					unset($_SESSION['password']);
+				}
+				?>
+				
 				<label for="nome">Nome:</label>
-				<input type="text" id="nome" name="nome" required focus>
+				<input type="text" id="nome" name="nome" maxlength="140" required focus>
 
 				<label for="email">Email:</label>
-				<input type="email" id="Email" name="Email" required focus>
+				<input type="email" id="Email" name="Email" maxlength="140" required focus>
+
+				<label for="idade">idade:</label>
+				<input type="number" id="idade" name="idade" maxlength="3" required focus>
+
+				<label for="telefone">Telefone:</label>
+				<input type="number" id="telefone" maxlength="12" name="telefone" required focus>
+
+				<label for="cep">cep:</label>
+				<input type="number" id="cep" name="cep" maxlength="8" required focus>
 
 				<label for="senha">Senha:</label>
-				<input type="password" id="senha" name="senha" required focus>
+				<input type="password" id="senha" name="senha" maxlength="16" required focus>
 
-				<label for="confirmar-senha">Confirmar senha:</label>
-				<input type="password" id="confirmar-senha" name="confirmar-senha" required focus>
+				<label for="confirmar_senha">Confirmar senha:</label>
+				<input type="password" id="confirmar_senha" name="confirmar_senha" maxlength="16" required focus>
 
+				
 				<input type="submit" value="Registra">
 				<input class="reset" type="reset" value="CANCELAR">
 

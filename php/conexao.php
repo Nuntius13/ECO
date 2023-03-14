@@ -5,9 +5,8 @@ $user = 'root';
 $password = '';
 $database = 'eco_uc16';
 
+$conn = new mysqli($host,$user,$password,$database);
 
-$mysqli = new mysqli($host,$user,$password,$database);
-
-if($mysqli->error){
+if($conn->error){
     die("falha ao se conectar ao bd".$mysqli->error);
 }
