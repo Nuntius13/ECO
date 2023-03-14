@@ -4,7 +4,7 @@ if (!isset($_SESSION)) {
 }
 
 if (!isset($_SESSION['id'])) {
-  header('Location: formulario.php');
+  header('Location: formulario_login.php');
 }
 if (isset($_SESSION['id'])) {
   header('Location: perfil.php');
